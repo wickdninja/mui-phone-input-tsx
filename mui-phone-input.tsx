@@ -2,7 +2,7 @@ import { TextField } from "@mui/material";
 import { useState } from "react";
 
 // forked from https://github.com/andria-dev/mui-phone-input/blob/master/src/PhoneInput.js
-export default function PhoneInput({ ...props }) {
+export default function MuiPhoneInput({ ...props }) {
   const [state, setState] = useState({
     value: "",
   });
