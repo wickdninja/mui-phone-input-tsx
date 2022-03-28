@@ -1,6 +1,6 @@
 {
-  "name": "mui-phone-input-ts",
-  "version": "1.1.1",
+  "name": "@jetpropilots/mui-phone-input",
+  "version": "1.2.1",
   "description": "simple wrapper around mui text field for phone number",
   "main": "phone-input.tsx",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wickdninja/mui-phone-input-ts.git"
+    "url": "git+https://github.com/wickdninja/mui-phone-input.git"
   },
   "keywords": [
     "mui",
@@ -20,9 +20,9 @@
   "author": "wickdninja",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wickdninja/mui-phone-input-ts/issues"
+    "url": "https://github.com/wickdninja/mui-phone-input/issues"
   },
-  "homepage": "https://github.com/wickdninja/mui-phone-input-ts#readme",
+  "homepage": "https://github.com/wickdninja/mui-phone-input#readme",
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
