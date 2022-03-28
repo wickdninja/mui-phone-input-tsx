@@ -1,6 +1,6 @@
 {
   "name": "mui-phone-input-ts",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "simple wrapper around mui text field for phone number",
   "main": "phone-input.tsx",
   "scripts": {
