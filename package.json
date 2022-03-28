@@ -1,10 +1,11 @@
 {
   "name": "mui-phone-input-ts",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "simple wrapper around mui text field for phone number",
   "main": "phone-input.tsx",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "deploy": "npm run build && npm version patch --force && npm publish"
   },
   "repository": {
     "type": "git",
@@ -34,9 +35,12 @@
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
     "eslint": "^8.11.0",
-    "typescript": "^4.5.5"
+    "typescript": "^4.6.3"
   },
   "files": [
-    "mui-phone-input.tsx"
+    "dist",
+    "src",
+    "tsconfig.json",
+    "package.json"
   ]
 }
