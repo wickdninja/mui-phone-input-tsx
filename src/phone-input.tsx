@@ -1,8 +1,9 @@
 import { TextField } from "@mui/material";
+import React from "react";
 import { useState } from "react";
 
 // forked from https://github.com/andria-dev/mui-phone-input/blob/master/src/PhoneInput.js
-export default function MuiPhoneInput({ ...props }) {
+export default function PhoneInput({ ...props }) {
   const [state, setState] = useState({
     value: "",
   });
@@ -32,6 +33,9 @@ export default function MuiPhoneInput({ ...props }) {
         }
 
         setState({ value: newValue });
+        if (selectionStart === null) {
+          selectionStart = 0;
+        }
         selectionStart += Math.max(newValueArr.length - oldValueArr.length, 0);
         el.selectionStart = el.selectionEnd = selectionStart;
       }}
